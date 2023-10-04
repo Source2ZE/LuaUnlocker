@@ -14,8 +14,8 @@
 LuaUnlocker g_LuaUnlocker;
 
 #ifdef _WIN32
-const unsigned char *pPatchSignature = (unsigned char *)"\xBE\x01\x00\x00\x00\x2B\xD6\x74\x2A\x3B\xD6";
-const char *pPatchPattern = "xxxxxxxx?xx";
+const unsigned char *pPatchSignature = (unsigned char *)"\xBE\x01\x2A\x2A\x2A\x2B\xD6\x74\x2A\x3B\xD6";
+const char *pPatchPattern = "xx???xxx?xx";
 int offset = 2;
 #elif __linux__
 const unsigned char * pPatchSignature = (unsigned char *)"\x83\xFE\x01\x0F\x84\x2A\x2A\x2A\x2A\x83";
