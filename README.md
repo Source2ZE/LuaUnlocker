@@ -1,8 +1,18 @@
-# LuaUnlocker
+# Lua Unlocker
 
 Enables the Lua VScripting language, now as a MetaMod plugin!
 
-Build instructions (Windows)
+**WARNING: Lua VScript is intentionally disabled by Valve! It is expected to be replaced by Pulse in the future, and will likely be completely removed from the game when that happens. Depend on Lua at your own risk.**
+
+## Installation
+
+- Install [Metamod](https://www.sourcemm.net/downloads.php?branch=dev)
+- Download the [latest release package](https://github.com/Source2ZE/LuaUnlocker/releases/latest) for your OS
+- Extract the package contents into `game/csgo` on your server
+
+## Build Instructions
+
+### Windows
 ```bash
 git clone https://github.com/Source2ZE/LuaUnlocker/ && cd LuaUnlocker
 
@@ -14,7 +24,7 @@ python ../configure.py -s cs2
 ambuild
 ```
 
-Build instructions (Linux)
+### Linux
 ```bash
 git clone https://github.com/Source2ZE/LuaUnlocker/ && cd LuaUnlocker
 
