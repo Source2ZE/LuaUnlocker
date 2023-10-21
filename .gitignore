@@ -1,0 +1,9 @@
+msvc10/.vs
+msvc10/Release - CS GO
+Release.csgo
+libtier0.so
+libvstdlib.so
+build/
+winbuild/
+windowsbuild/
+linuxbuild/
