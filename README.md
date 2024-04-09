@@ -4,8 +4,6 @@
 
 Enables the Lua VScripting language, now as a Metamod plugin!
 
-Note this plugin is currently incompatible with CS2Fixes, as CS2Fixes also unlocks Lua scripting. Pick one or the other as you don't need both.
-
 ## Installation
 
 - Install [Metamod](https://cs2.poggu.me/metamod/installation/)
