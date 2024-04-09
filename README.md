@@ -1,10 +1,10 @@
 # Lua Unlocker
 
+## WARNING: Lua VScript is intentionally disabled by Valve! It is expected to be replaced by Pulse in the future, and will likely be completely removed from the game when that happens. Depend on Lua at your own risk.
+
 Enables the Lua VScripting language, now as a Metamod plugin!
 
 Note this plugin is currently incompatible with CS2Fixes, as CS2Fixes also unlocks Lua scripting. Pick one or the other as you don't need both.
-
-**WARNING: Lua VScript is intentionally disabled by Valve! It is expected to be replaced by Pulse in the future, and will likely be completely removed from the game when that happens. Depend on Lua at your own risk.**
 
 ## Installation
 
